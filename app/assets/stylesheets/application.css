@@ -12,15 +12,14 @@
  *
  *      
  *= require bootstrap.min
- *= require font-awesome.min
- *= require style
+ *= require font-awesome
+ *= require style-font
  *= require animate
  *= require magnific-popup
  *= require ultm
  *= require form-elements
  *= require style
  *= require media-queries
- *
  *= require_tree .
  *= require_self
  */

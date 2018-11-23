@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
     <head>
@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Trilli Bi - Bootstrap Landing Page</title>
-
+ -->
         <!-- CSS -->
 <!--         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
@@ -27,8 +27,8 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"> -->
-
-    </head>
+<!-- 
+    </head> -->
 
     <body>
     
@@ -146,7 +146,7 @@
               </div>
               <div class="row">
                 <div class="col-sm-6 more-features-box wow fadeInLeft">
-                      <img src="assets/img/screenshots/admin-1.png" alt="">
+                      <img src="<%= image_path 'admin-1.png' %>" alt="">
                   </div>
                   <div class="col-sm-6 more-features-box wow fadeInUp">
                       <div class="more-features-box-text">
@@ -192,15 +192,15 @@
               </div>
               <div class="row">
                 <div class="col-sm-4 screenshot-box wow fadeInUp">
-                      <span aria-hidden="true" class="icon_group" data-img-src="assets/img/screenshots/1.jpg" data-img-title="Recent users"></span>
+                      <span aria-hidden="true" class="icon_group" data-img-src="<%= image_path '1.jpg' %>" data-img-title="Recent users"></span>
                       <h3>Recent users</h3>
                   </div>
                 <div class="col-sm-4 screenshot-box wow fadeInDown">
-                  <span aria-hidden="true" class="icon_clock" data-img-src="assets/img/screenshots/2.jpg" data-img-title="Real time data"></span>
+                  <span aria-hidden="true" class="icon_clock" data-img-src="<%= image_path '2.jpg' %>" data-img-title="Real time data"></span>
                   <h3>Real time data</h3>
                   </div>
                   <div class="col-sm-4 screenshot-box wow fadeInUp">
-                  <span aria-hidden="true" class="icon_datareport_alt" data-img-src="assets/img/screenshots/3.jpg" data-img-title="User statistics"></span>
+                  <span aria-hidden="true" class="icon_datareport_alt" data-img-src="<%= image_path '3.jpg' %>" data-img-title="User statistics"></span>
                   <h3>User statistics</h3>
                   </div>
               </div>
@@ -291,7 +291,7 @@
                           <a href="">John Doe, johndoe.com</a>
                         </p>
                         <div class="testimonial-single-image">
-                          <img src="assets/img/testimonials/1.jpg" alt="" data-at2x="assets/img/testimonials/1.jpg">
+                          <img src="<%= image_path '1.jpg' %>" alt="" data-at2x="<%= image_path '1.jpg' %>">
                         </div>
                       </div>
                       <div class="testimonial-single">
@@ -303,7 +303,7 @@
                           <a href="">Jane Jonsson, blog.jane.com</a>
                         </p>
                         <div class="testimonial-single-image">
-                          <img src="assets/img/testimonials/2.jpg" alt="" data-at2x="assets/img/testimonials/2.jpg">
+                          <img src="<%= image_path '2.jpg' %>" alt="" data-at2x="<%= image_path '2.jpg' %>">
                         </div>
                       </div>
                       <div class="testimonial-single">
@@ -315,7 +315,7 @@
                           <a href="">John Doe, johndoe.com</a>
                         </p>
                         <div class="testimonial-single-image">
-                          <img src="assets/img/testimonials/3.jpg" alt="" data-at2x="assets/img/testimonials/3.jpg">
+                          <img src="<%= image_path '3.jpg' %>" alt="" data-at2x="<%= image_path '3.jpg' %>">
                         </div>
                       </div>
                       <div class="testimonial-single">
@@ -327,7 +327,7 @@
                           <a href="">Jane Jonsson, blog.jane.com</a>
                         </p>
                         <div class="testimonial-single-image">
-                          <img src="assets/img/testimonials/4.jpg" alt="" data-at2x="assets/img/testimonials/4.jpg">
+                          <img src="<%= image_path '4.jpg' %>" alt="" data-at2x="<%= image_path '4.jpg' %>">
                         </div>
                       </div>
                   </div>
@@ -351,7 +351,7 @@
               <div class="row">
                   <div class="col-sm-4 about-us-box wow fadeInUp">
                     <div class="about-us-photo">
-                      <img src="assets/img/team/1.jpg" alt="" data-at2x="assets/img/team/1.jpg">
+                      <img src="<%= image_path '1.jpg' %>" alt="" data-at2x="<%= image_path '1.jpg' %>">
                     </div>
                       <h3>John Doe</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
@@ -363,7 +363,7 @@
                   </div>
                   <div class="col-sm-4 about-us-box wow fadeInDown">
                     <div class="about-us-photo">
-                      <img src="assets/img/team/2.jpg" alt="" data-at2x="assets/img/team/2.jpg">
+                      <img src="<%= image_path '2.jpg' %>" alt="" data-at2x="<%= image_path '2.jpg' %>">
                     </div>
                       <h3>Tim Brown</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
@@ -375,7 +375,7 @@
                   </div>
                   <div class="col-sm-4 about-us-box wow fadeInUp">
                     <div class="about-us-photo">
-                      <img src="assets/img/team/3.jpg" alt="" data-at2x="assets/img/team/3.jpg">
+                      <img src="<%= image_path '3.jpg' %>" alt="" data-at2x="<%= image_path '3.jpg' %>">
                     </div>
                       <h3>Sarah Red</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
@@ -501,7 +501,7 @@
                 <h4 class="modal-title" id="modal-features-label">Main features</h4>
               </div>
               <div class="modal-body">
-                <p><img src="assets/img/modal/1.jpg" alt=""></p>
+                <p><img src="<%= image_path '1.jpg' %>" alt=""></p>
                 <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
@@ -564,7 +564,7 @@
                 <h4 class="modal-title" id="modal-about-us-label">About our team</h4>
               </div>
               <div class="modal-body">
-                <p><img src="assets/img/modal/2.jpg" alt=""></p>
+                <p><img src="<%= image_path '2.jpg' %>" alt=""></p>
                 <p>
                         Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea 
                         commodo consequat nostrud tation.
@@ -583,14 +583,14 @@
         
 
         <!-- Javascript -->
-        <script src="assets/js/jquery-1.11.1.min.js"></script>
+<!--         <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/retina-1.1.0.min.js"></script>
         <script src="assets/js/waypoints.min.js"></script>
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
+        <script src="assets/js/scripts.js"></script> -->
         
         <!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>
@@ -598,5 +598,5 @@
 
     </body>
 
-</html>
-
+<!-- </html>
+ -->
